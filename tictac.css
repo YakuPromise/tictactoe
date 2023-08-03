@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+}
+
+nav{
+    background: linear-gradient(90deg, rgb(255, 255, 255), gold, white, gold, rgb(241, 237, 237) );
+    color: rgb(63, 38, 5);
+    height: 75px;
+    font-size: 30px;
+    font-family:'Times New Roman';
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+
+nav ul li{
+    list-style-type: none;
+    font-size: 50px;
+    padding-left: 80vh;
+    font-family:fantasy;
+}
+.body{
+    background: url(bgg.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.imgbox img{
+    width: 0px;
+    transition: width 1s ease-in-out;
+}
+
+.gamecontainer{
+    position: relative;
+    background: url(bg.jpg);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    box-shadow: 10px 10px 30px;
+}
+
+.container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+}
+.box{
+    border: 2px solid;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background: rgb(129, 81, 81);
+    cursor: pointer;
+    color: white;
+}
+.gameinfo{
+    padding: 0 34px;
+}
+
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.info{
+    background: white;
+    padding: 5px;
+    font-size: 20px;
+
+}
+#reset{
+    margin: 20px 20px;
+    padding: 10px;
+    background:linear-gradient(-30deg, white, gold,white ,gold, white);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    color: rgb(73, 66, 23);
+    box-shadow: 1px 5px 2px rgb(128, 128, 128);
+
+}
+#reset:hover{
+    transition: 0.1s;
+    box-shadow: 1px 5px #666;
+}
+#reset:active {
+    background-color: #3e8e41;
+    box-shadow: 0 0px #666;
+    transform: translateY(5px);
+}
+.line{
+    background-color: black;
+    height: 4px;
+    width: 20vw;
+    position: absolute;
+    background-color: #911d91;
+    transition: width 1s ease-in-out;
+}
+.footer{
+     background:linear-gradient(90deg, rgb(255, 255, 255), gold, white, gold, rgb(241, 237, 237) );
+     font-size: 19px;
+     padding: 5px;
+     text-align: center;
+     position: relative;
+     bottom:-50px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
